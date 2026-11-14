@@ -1,0 +1,191 @@
+{
+  "default_profile": "adaptive",
+  "dependencies": [
+    "numpy==2.4.6",
+    "numba==0.68.1",
+    "stim==1.16.0"
+  ],
+  "entry_module": "organizer_decoder",
+  "entry_point": "decoder.decode",
+  "excluded": [
+    "credentials",
+    "training labels",
+    "test inputs",
+    "predictions",
+    "benchmark fixtures",
+    "reference answers",
+    "compiled caches",
+    "compressed adaptive row stores"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 2963,
+      "sha256": "5690269dc40658514968f290bfbc42b86f0d36c34c2545b3eda7f49beb38a178"
+    },
+    "adaptive_row_store.py": {
+      "bytes": 26740,
+      "sha256": "9241506379a8a12221333c73d635da807de92087a139a39df12cd6900ff1d5ba"
+    },
+    "adaptive_tensor_decoder.py": {
+      "bytes": 29133,
+      "sha256": "3452eec6194e59e7b0d1c1d386c379212a7de7f4cf439e556461e411203d3715"
+    },
+    "data/competition/X_circuit.stim": {
+      "bytes": 11279,
+      "sha256": "69d15cce609f60a7b45af88ec0a6f52b47d1fc5f08f39785fa18f50f1e47e5db"
+    },
+    "data/competition/Z_circuit.stim": {
+      "bytes": 10790,
+      "sha256": "2f20016bcc3d66bfdfae5a03685806f2355d6d2a4100a131e7a6999f672bc282"
+    },
+    "data/target03/boundary21_X.npz": {
+      "bytes": 152448867,
+      "sha256": "4c0155823f7415985f6c1f18722d464f1ee45e94044b52b24c16ee9779febf51"
+    },
+    "data/target03/boundary21_Z.npz": {
+      "bytes": 151353302,
+      "sha256": "20d88b8489fd03764ad5204539436bbf8f7c7795d8f93cfb7e5c94a6b29a19bc"
+    },
+    "decoder.py": {
+      "bytes": 717,
+      "sha256": "b2cfc35f49f354812bad0c0666ad35672da753f50be17f0bc24c9f19948cc981"
+    },
+    "diagnostics/__init__.py": {
+      "bytes": 64,
+      "sha256": "e8dda53d86ce43ff6c55c72e189082611e6e036b2296012859e625517488b176"
+    },
+    "diagnostics/adaptive_cached_kernels.py": {
+      "bytes": 15291,
+      "sha256": "ea4fa151a559b06568d68812f9b8a8e97f50fa99434b79265a3d4a33114bc1a4"
+    },
+    "diagnostics/boundary21_tables.py": {
+      "bytes": 8586,
+      "sha256": "b1fb07267ad3e9a80ea1945a608ece71f0d68d3c653f674d25f113a910b1ffcc"
+    },
+    "diagnostics/boundary_probe.py": {
+      "bytes": 13810,
+      "sha256": "510293c1af1d9a9ff700c6c8a6a6b9b280a3c2aaa209773b76696612ecbf8cbd"
+    },
+    "diagnostics/compiled_row_memory.py": {
+      "bytes": 6999,
+      "sha256": "3aff3a4777e596dfb911d6a7c6a33d8bb144ccc2ac88a5f6196e4e8de5241fa1"
+    },
+    "diagnostics/precompute_adaptive_rows.py": {
+      "bytes": 1209,
+      "sha256": "b57ad72bfb41a02b92b08695ef7a5e09aff96f11c70354b39aa0c661aed2c279"
+    },
+    "diagnostics/temporal_chain.py": {
+      "bytes": 12775,
+      "sha256": "47ab2d27bd52b2e3d612f30d009c8001564a4207b96407ca056c2ecf090ca03e"
+    },
+    "diagnostics/temporal_factor_probe.py": {
+      "bytes": 9851,
+      "sha256": "60ff2df13a9702845c664489a09db86e2f19f4db9a4994bd68420bb508718874"
+    },
+    "diagnostics/temporal_structure.py": {
+      "bytes": 16135,
+      "sha256": "73732f94f8c2ff48ce19af76361ebfce963bb0b53d81a8e6b8b72b8d8717fb35"
+    },
+    "diagnostics/tensor_environment_tail.py": {
+      "bytes": 11712,
+      "sha256": "a54d7494097e88321ac5cc824ea6cf1d03780ff304c849d0f6204f7635a0f5b8"
+    },
+    "diagnostics/tensor_fast_chain.py": {
+      "bytes": 22006,
+      "sha256": "d6c962307ddc79b04a44153f138b6054d625ec8e86936d5b906eeb6002598921"
+    },
+    "diagnostics/tensor_full_edge.py": {
+      "bytes": 30070,
+      "sha256": "c8c85782a0a22c29e89f8b52ad065fbd02f02354ce7f323a25c9cfad1a9a4d07"
+    },
+    "diagnostics/tensor_partial_cache.py": {
+      "bytes": 18495,
+      "sha256": "8d01862e8c86243ea6c7770aff3ee61836af7a72f4b944d9d90102856cd6c325"
+    },
+    "diagnostics/tensor_sliced_chain.py": {
+      "bytes": 12935,
+      "sha256": "ac807070c6d6f3aad53f2bed41b2f0e36c53ffd773a5c4a6750d0299452e18ad"
+    },
+    "diagnostics/tensor_structure.py": {
+      "bytes": 9406,
+      "sha256": "e20e2029ff803e5bae97503ea50aacf5be0ee30fa564d4ef6193f9c718b3cf68"
+    },
+    "fallback.py": {
+      "bytes": 4784,
+      "sha256": "ece25578eda7442d6bb84e8bf1cd7636d17845c7fd7d73638c5142247c29802c"
+    },
+    "organizer_decoder.py": {
+      "bytes": 25808,
+      "sha256": "430baa52870ae1bd16076423737b70a3ddc268fbacb67619328ace24a479bad6"
+    },
+    "prior_model.py": {
+      "bytes": 25848,
+      "sha256": "321c1c0a322bfe31352d7b25ff6b3073d0a2676d57c9b116a411a5b128216a7c"
+    },
+    "probability_decoder.py": {
+      "bytes": 3214,
+      "sha256": "23d22ceb743facd40115cc4eb2a8e7161845199abff2dcaf87636115864a31fb"
+    },
+    "requirements.txt": {
+      "bytes": 40,
+      "sha256": "5f2b9c40efd1dfe7be95290dc2301b175596a1e2bbb5e87ff8b4a54b35d0dce1"
+    }
+  },
+  "packaged_source_transforms": {
+    "adaptive_row_store.py": {
+      "model_import_replacements": 1
+    },
+    "adaptive_tensor_decoder.py": {
+      "model_import_replacements": 1
+    },
+    "diagnostics/boundary21_tables.py": {
+      "model_import_replacements": 1
+    },
+    "diagnostics/boundary_probe.py": {
+      "model_import_replacements": 1
+    },
+    "diagnostics/temporal_factor_probe.py": {
+      "model_import_replacements": 1
+    },
+    "diagnostics/temporal_structure.py": {
+      "model_import_replacements": 1
+    },
+    "diagnostics/tensor_full_edge.py": {
+      "model_import_replacements": 1
+    },
+    "diagnostics/tensor_structure.py": {
+      "model_import_replacements": 1
+    },
+    "probability_decoder.py": {
+      "model_import_replacements": 1
+    }
+  },
+  "schema": "optimized-cpu-decoder-code-handin-v1",
+  "source_sha256": {
+    "adaptive_row_store.py": "a7860d18a5eaf7f3097fe8b82ee5ab64743072c9f1947865d18781af1e37361b",
+    "adaptive_tensor_decoder.py": "eb29833439b0883e97f1e11f9fc6a02d6fe2faefc720de24d8fa32cc2b949e32",
+    "data/competition/X_circuit.stim": "69d15cce609f60a7b45af88ec0a6f52b47d1fc5f08f39785fa18f50f1e47e5db",
+    "data/competition/Z_circuit.stim": "2f20016bcc3d66bfdfae5a03685806f2355d6d2a4100a131e7a6999f672bc282",
+    "data/target03/boundary21_X.npz": "4c0155823f7415985f6c1f18722d464f1ee45e94044b52b24c16ee9779febf51",
+    "data/target03/boundary21_Z.npz": "20d88b8489fd03764ad5204539436bbf8f7c7795d8f93cfb7e5c94a6b29a19bc",
+    "decoder.py": "af5fb898ff20d1c7a5a06be4862adc2a849b5aa3736db207ac3a630e793b1e66",
+    "diagnostics/adaptive_cached_kernels.py": "ea4fa151a559b06568d68812f9b8a8e97f50fa99434b79265a3d4a33114bc1a4",
+    "diagnostics/boundary21_tables.py": "b35df456cdc02b3fb634957b6fc5b3b6fc6ab8ef2b3f3a51e4e27cb8af7c862b",
+    "diagnostics/boundary_probe.py": "b53e4d0336f056319fe4eb47278126039aaebbb4ff1db4700fb85df500e14ddc",
+    "diagnostics/compiled_row_memory.py": "3aff3a4777e596dfb911d6a7c6a33d8bb144ccc2ac88a5f6196e4e8de5241fa1",
+    "diagnostics/precompute_adaptive_rows.py": "b57ad72bfb41a02b92b08695ef7a5e09aff96f11c70354b39aa0c661aed2c279",
+    "diagnostics/temporal_chain.py": "47ab2d27bd52b2e3d612f30d009c8001564a4207b96407ca056c2ecf090ca03e",
+    "diagnostics/temporal_factor_probe.py": "7a5227668d7dbd25b3fbb484ca589ba9a63331b34fc22aa78dfcca85c82143e3",
+    "diagnostics/temporal_structure.py": "1ed5b16eac5559726cecfb7755ca5e77595695dc9c7923bdf50698c58d0413ca",
+    "diagnostics/tensor_environment_tail.py": "a54d7494097e88321ac5cc824ea6cf1d03780ff304c849d0f6204f7635a0f5b8",
+    "diagnostics/tensor_fast_chain.py": "d6c962307ddc79b04a44153f138b6054d625ec8e86936d5b906eeb6002598921",
+    "diagnostics/tensor_full_edge.py": "c2af9c4338694d39f599009c910cbda2ae144bd9b55a3795046778089090003e",
+    "diagnostics/tensor_partial_cache.py": "8d01862e8c86243ea6c7770aff3ee61836af7a72f4b944d9d90102856cd6c325",
+    "diagnostics/tensor_sliced_chain.py": "ac807070c6d6f3aad53f2bed41b2f0e36c53ffd773a5c4a6750d0299452e18ad",
+    "diagnostics/tensor_structure.py": "a8e96818f16b147bd0ad085551f3def4094894513ac3329ff3330beb3c763954",
+    "fallback.py": "52fe2a4ee719e1e5a1ad08b7c0f3c7670c5471281759245f863d9d145e264e44",
+    "organizer_decoder.py": "d09b3dace8719690985bf222303ebe18d7c4052bfb7512596a1e23469afc8471",
+    "probability_decoder.py": "192c7928f596ea6188cdb39cd880f669c076541b09e14b539d9f56973e8f4348",
+    "requirements.txt": "5f2b9c40efd1dfe7be95290dc2301b175596a1e2bbb5e87ff8b4a54b35d0dce1"
+  }
+}
